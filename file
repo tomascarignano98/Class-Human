@@ -16,8 +16,3 @@ class Human:
         print(
             f"Hi there! I'm {self.name}, and I'm {self.age} years old. Nice to meet you :D")
 
-
-tomas = Human("Tomas Carignano", 22)
-fede = Human("Federico Witthaus", 21)
-combined = tomas + fede
-print(combined)
