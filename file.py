@@ -3,6 +3,10 @@ class Human:
         self.name = name
         self.age = age
 
+        @classmethod
+        def tomas(cls):
+            return cls("Tomas Carignano", 22)
+        
     def __gt__(self, other):
         return self.age > other.age
 
