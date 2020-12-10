@@ -41,4 +41,9 @@ print(cloud.tags["PYTHON"])
 Here, our programm would crash, because it would not find any key named "PYTHON", 
 since all the keys inside the dictionary were stored in lower case.
 
+
+Another example is when we have methods that only serve their 
+purpose under the hood, but we don't want them to appear in the surface.
+These methods would be polluting the interface of our object, and it 
+would be liek having a TV remote control with 100 buttons.
 """
