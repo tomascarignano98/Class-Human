@@ -50,6 +50,11 @@ price = property(get_price, set_price)
 
 # we have a decorator for creating a property. @property
 
+chips = Product(10)
+print(chips.price)
+
+# A property looks like a regular attribute from the outside, but internally it has
+two methods: a getter and a setter.
 
 """
 
