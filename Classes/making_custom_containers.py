@@ -10,10 +10,7 @@ class TagCloud:
         self.tags = {}
 
     def add(self, tag):
-        if tag.lower() not in self.tags:
-            self.tags[tag.lower()] = 1
-        else:
-            self.tags[tag.lower()] += 1
+        self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1
 
     def __getitem__(self, tag):
         return self.tags.get(tag.lower(), 0)
