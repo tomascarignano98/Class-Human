@@ -46,4 +46,8 @@ Another example is when we have methods that only serve their
 purpose under the hood, but we don't want them to appear in the surface.
 These methods would be polluting the interface of our object, and it 
 would be liek having a TV remote control with 100 buttons.
+
+we want our objects and classes to have the minimum number of 
+methods exposed to the outside
+
 """
