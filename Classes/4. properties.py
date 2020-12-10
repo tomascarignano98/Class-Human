@@ -35,6 +35,8 @@ class Product:
 
 
 # Okay cool, but what the hell is properties?
+A property is an object that sits in front of an attribute
+and allows us to get or set the value of that attribute.
 In this case, there's a way to implement the property function
 and achieve the same soultion in a cleaner way.
 
