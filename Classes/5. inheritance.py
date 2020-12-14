@@ -14,3 +14,10 @@ class Mammal(Animal):
 class Fish:
     def swim(self):
         print("swim")
+
+        
+cat = Mammal()
+print(isinstance(cat, object))
+print(issubclass(Mammal, Animal))
+
+      
