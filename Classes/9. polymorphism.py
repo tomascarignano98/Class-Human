@@ -25,3 +25,12 @@ def draw(controls):
 ddl = DropDownList()
 textbox = TextBox()
 draw([textbox, ddl])
+
+
+# Our draw function doesn't know what kind of control is working 
+# with, this is determined at runtime. It simply iterates over the list
+# of controls and calls the draw method at each object.
+
+# This is called polymorphism, from poly and morhpism; which means "many forms".
+
+# In this example, our draw method is taking many different forms, and this is determined at runtime. 
