@@ -34,3 +34,6 @@ draw([textbox, ddl])
 # This is called polymorphism, from poly and morhpism; which means "many forms".
 
 # In this example, our draw method is taking many different forms, and this is determined at runtime. 
+# So, depending on the type of control object that we're working with at runtime,
+# this draw method, takes a different form. It may be the draw method in a 
+# TextBox, or DropDownList, etc.
